@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "eng-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Week 4 Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- 	<link rel="stylesheet" type="text/css"
+	href=="assets/css/reset.css"> -->
+	<link rel="java" href="assets/javascript/game.js">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+	<div class="jumbotron">
+	<div><h2 class="text-center">Crystals Collector!</h2></div>
+	</div>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+			<h3 class="text-center">Instructions</h3>
+		<p>You will be given a random number at the start of the game.</p>
+		<p>The objective of this game to click the crystals such that it adds up to the random number from the start of the game.</p>
+		<p>Each time the game starts over, the values of the crystals will change.</p>
+			</div>
+		</div>
+	</div>
+	
+	<!-- this is to make sure nothing fills in the space next to the instructions -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+			</div>
+		</div>
+	</div>
+
+	<div class="col-lg-12">
+		<link rel="java" href="assets/javascript/game.js">
+		<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3 class="panel-title text-center">Crystals Selcector</h3>
+		</div>
+		</div>
+		<div class="panel-body text-center">
+			<img src="assets/images/blue.png" alt="" id="blue">
+			<img src="assets/images/green.png" alt="" id="green">
+			<img src="assets/images/red.png" alt=""
+			id="red">
+			<img src="assets/images/yellow.png" alt="" id="yellow">
+		</div>
+	</div>
+
+
+	<div class="col-md-3">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h4> Your Score </h4>
+		</div>
+		<div class="panel-body">
+			<h4 class="text-center" id="your-score"></h4>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-md-3">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h4> Number of Wins </h4>
+		</div>
+		<div class="panel-body">
+			<h4 class="text-center" id="wins"></h4>
+		</div>
+	</div>
+	</div>
+
+	<div class="col-md-3">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h4> Number of Losses </h4>
+		</div>
+		<div class="panel-body">
+			<h4 class="text-center" id="losses"></h4>
+		</div>
+	</div>
+	</div>
+
+		<div class="col-md-3">
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h4> Total Score </h4>
+		</div>
+		<div class="panel-body">
+			<h4 class="text-center" id="total-score"></h4>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+</body>
+
+</html>
