@@ -1,4 +1,17 @@
+.jumbotron{
+	background-image: url("../images/stone.jpg");
+}
+
 body{
 	font-family: 'Poppins', sans-serif;
-	background-image: src="assets/images/background.jpg";
+	background-image: url("../images/background.jpg");
 }
+
+.panel-primary{
+	background-color: #fff;
+}
+
+.panel-heading{
+	background-color: teal !important;
+}
+
