@@ -48,7 +48,7 @@ var startGame = function(){
 			console.log("you lost");
 
 			lossCount++;
-			$("losses").html(lossCount);
+			$("#losses").html(lossCount);
 			startGame();
 		}
 
@@ -57,7 +57,7 @@ var startGame = function(){
 			console.log("YOU WIN");
 
 			winCount++;
-			$("wins").html(winCount);
+			$("#wins").html(winCount);
 			startGame();
 		}
 	};
@@ -72,7 +72,6 @@ var startGame = function(){
 startGame();
 $("#blue").click(function(){
 	addValues(crystal.blue);
-	console.log("clicked")
 });
 
 $("#green").click(function(){
@@ -84,7 +83,7 @@ $("#red").click(function(){
 });
 
 $("#yellow").click(function(){
-	addValues(crystal.yello);
+	addValues(crystal.yellow);
 });
 
 
