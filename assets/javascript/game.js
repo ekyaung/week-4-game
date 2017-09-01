@@ -40,7 +40,8 @@ var startGame = function(){
 
 	$("#your-score").html(currentScore);
 	$("#target-score").html(targetScore);
-
+	};
+	
 	var checkWin = function(){
 		if (currentScore > targetScore){
 			alert("GAME OVER!");
@@ -60,29 +61,29 @@ var startGame = function(){
 			startGame();
 		}
 	};
-};
 
 	var addValues = function(clickedCrystal){
 		currentScore += clickedCrystal.value;
-		$("#your-score").html(currentscore);
+		$("#your-score").html(currentScore);
 		checkWin();
 		console.log("your score" + currentScore);
 	};
 
 startGame();
-$("blue").click(function(){
+$("#blue").click(function(){
 	addValues(crystal.blue);
+	console.log("clicked")
 });
 
-$("green").click(function(){
+$("#green").click(function(){
 	addValues(crystal.green);
 });
 
-$("red").click(function(){
+$("#red").click(function(){
 	addValues(crystal.red);
 });
 
-$("yellow").click(function(){
+$("#yellow").click(function(){
 	addValues(crystal.yello);
 });
 
